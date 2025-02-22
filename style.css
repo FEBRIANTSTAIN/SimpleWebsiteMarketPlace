@@ -1,0 +1,24 @@
+.group img.h-64.w-full.object-cover {
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .grid.grid-cols-3 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .group img.h-64.w-full.object-cover {
+        height: 150px;
+    }
+
+    .group {
+        padding: 0.5rem;
+    }
+
+    .group button.block.w-full.rounded.bg-yellow-400.p-4.text-sm.font-medium {
+        padding: 0.75rem; /* Sesuaikan padding tombol */
+        font-size: 0.875rem; /* Sesuaikan ukuran font tombol */
+    }
+}
